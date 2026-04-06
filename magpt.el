@@ -46,7 +46,7 @@
 (require 'vc)
 (require 'project)
 (require 'gptel)
-(defvar gptel-model nil) ;; ensure bound during reloads to avoid mode-line errors
+
 (require 'magit nil t)     ;; Optional; used when available
 (require 'transient nil t) ;; Optional; used when available
 (require 'magpt-log nil t)
